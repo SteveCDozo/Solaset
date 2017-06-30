@@ -1,0 +1,13 @@
+body {
+  background-color: #e6e6e6;
+}
+/* navigation */
+nav {
+  text-transform: uppercase;
+}
+nav .name {
+  text-transform: capitalize;
+}
+nav .dropdown-menu {
+  text-transform: capitalize;
+}
