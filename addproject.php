@@ -3,14 +3,14 @@
   <!-- project information -->
   <div class="container-fluid">
     <h4>Project ID: 12345</h4>
-    <h3 style="text-align:center;">ADD PROJECT</h3><br>
+    <h3 class="page-header text-center">Add Project</h3>
     <form>
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <div class="panel-title" style="text-align:center;"><b>Project Description</b></div>
+              <div class="panel-title text-center"><b>Project Description</b></div>
             </div>
             <div class="panel-body">
               <div class="col-md-6">
@@ -87,7 +87,7 @@
         <div class="col-md-8">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <div class="panel-title" style="text-align:center;"><b>Financials</b></div>
+              <div class="panel-title text-center"><b>Financials</b></div>
             </div>
             <div class="panel-body">
               <div class="col-md-6">

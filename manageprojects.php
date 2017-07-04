@@ -2,10 +2,10 @@
 <?php include_once("head.php"); ?>
   <div class="container-fluid">
     <!-- filter/sort section -->
-    <section style="">
-      <div class="row" style="background-color:#cccccc;padding:30px 0 30px 0;margin-top:-20px;">
+    <section id="manage-projects-filter">
+      <div class="row">
         <div class="col-md-2"></div>
-        <div class="col-md-8" style="text-align:center;">
+        <div class="col-md-8 text-center">
           <form class="form-inline">
             <div class="form-group">
               <label for="">Filter by: </label>
@@ -21,7 +21,7 @@
               <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
               <input type="text" id="" class="form-control" name="" placeholder="Location">
             </div>
-            <div class="form-group" style="padding-left:20px;">
+            <div id="manage-projects-sort" class="form-group">
               <label for="">Sort by: </label>
               <select class="form-control" id="">
                 <option value="" selected>Most Recent</option>
@@ -39,7 +39,7 @@
       </div>
     </section>
     <!-- Table of projects -->
-    <section style="padding-top:20px;">
+    <section id="manage-projects-table">
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
@@ -48,12 +48,12 @@
               <div class="panel-title"><b>500 projects</b></div>
             </div>
             <div class="panel-body">
-              <div class="row" style="padding: 10px 10px 10px 10px;">
+              <div class="row">
                 <?php include("ghanaprojectexample.php"); ?>
                 <?php include("ghanaprojectexample.php"); ?>
                 <?php include("ghanaprojectexample.php"); ?>
               </div>
-              <div class="row" style="padding: 10px 10px 10px 10px;">
+              <div class="row">
                 <?php include("ghanaprojectexample.php"); ?>
                 <?php include("ghanaprojectexample.php"); ?>
                 <?php include("ghanaprojectexample.php"); ?>

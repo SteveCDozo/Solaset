@@ -3,15 +3,14 @@
   <!-- project information -->
   <div class="container-fluid">
     <h4>Account NO. 1234567<span style="float:right;">Temp. Password: Zf123a45</span></h4>
-    <h3 style="text-align:center;">ADD PARTNER</h3><br>
+    <h3 class="page-header text-center">Add Partner</h3>
     <form>
-
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <div class="panel-title" style="text-align:center;"><b>Company Information</b></div>
+              <div class="panel-title text-center"><b>Company Information</b></div>
             </div>
             <div class="panel-body">
               <div class="col-md-4">
@@ -68,14 +67,12 @@
         </div>
         <div class="col-md-2"></div>
       </div>
-
-
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <div class="panel-title" style="text-align:center;"><b>Contacts</b></div>
+              <div class="panel-title text-center"><b>Contacts</b></div>
             </div>
             <div class="panel-body">
               <div class="col-md-6">

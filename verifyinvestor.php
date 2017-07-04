@@ -2,15 +2,15 @@
 <?php include_once("head.php"); ?>
   <!-- project information -->
   <div class="container-fluid">
-    <h3 style="text-align:center;">Verify Investor</h3><br>
+    <h3 class="page-header text-center">Verify Investor</h3>
     <form>
       <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-body">
-              <h4 style="text-align:center;"><b>Check Investor Status</b></h4><br>
-              <div class="row">
+              <h4 class="panel-header text-center"><b>Check Investor Status</b></h4>
+              <div class="row" style="padding-bottom: 20px;">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
                   <div class="form-group">
@@ -25,15 +25,14 @@
                     <label for="">Investor Email</label>
                     <input type="text" id="" class="form-control" name="">
                   </div>
-                  <div style="text-align:center;">
+                  <div class="text-center">
                     <input type="submit" class="btn btn-primary" value="Search">
                   </div>
                 </div>
                 <div class="col-md-2"></div>
               </div>
-              <br>
               <hr>
-              <h4 style="text-align:center;"><b>Search Results</b></h4><br>
+              <h4 class="panel-header text-center"><b>Search Results</b></h4>
               <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
