@@ -1,7 +1,9 @@
 <nav class="navbar navbar-default" id="steve">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/">Solaset</a>
+      <a class="navbar-brand" href="/">
+        <img alt="Solaset" src="img/brand.png">
+      </a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="addproject.php">Add Project</a></li>
