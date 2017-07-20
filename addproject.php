@@ -1,5 +1,5 @@
 <?php $page_title = "Add Project" ?>
-<?php include_once("head.php"); ?>
+<?php include_once("/head.php"); ?>
   <!-- project information -->
   <div class="container-fluid">
     <h4>Project ID: 12345</h4>
@@ -37,7 +37,7 @@
                 <div class="form-group">
                   <label for="">Country</label>
                   <select class="form-control" id="">
-                    <?php include("countrylist.php"); ?>
+                    <?php include("/countrylist.php"); ?>
                   </select>
                 </div>
               </div>
@@ -45,12 +45,12 @@
                 <div class="form-group">
                   <label for="">Loan Contract</label>
                   <div class="input-group">
+                    <input type="text" class="form-control" readonly>
                     <label class="input-group-btn">
                       <span class="btn btn-primary">
                         Browse.. <input type="file" style="display: none;" accept=".pdf" id="" class="form-control" name="" placeholder="">
                       </span>
                     </label>
-                    <input type="text" class="form-control" readonly>
                   </div>
                   <span class="help-block">
                     Only .pdf files will be accepted.
@@ -59,12 +59,12 @@
                 <div class="form-group">
                   <label for="">Image</label>
                   <div class="input-group">
+                    <input type="text" class="form-control" readonly>
                     <label class="input-group-btn">
                       <span class="btn btn-primary">
                         Browse.. <input type="file" style="display: none;" accept="image/*" id="" class="form-control" name="">
                       </span>
                     </label>
-                    <input type="text" class="form-control" readonly>
                   </div>
                   <span class="help-block">
                     Only .png or .jpeg files will be accepted.
@@ -148,7 +148,7 @@
         </div>
         <div class="col-md-2">
           <div class="input-group">
-            <input type="password" class="form-control" placeholder="Enter Password">
+            <input type="password" class="form-control" placeholder="Password">
             <span class="input-group-btn">
               <input type="submit" class="btn btn-primary" value="Add">
             </span>
@@ -188,4 +188,4 @@
 
   });
   </script>
-<?php include_once("end.php"); ?>
+<?php include_once("/end.php"); ?>

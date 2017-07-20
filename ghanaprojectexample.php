@@ -12,9 +12,10 @@
     <div class="progress">
       <div class="progress-bar" role="progressbar" style="width:70%">$7,500 left</div>
     </div>
-    <div class="middle">
-      <div class="text">John Doe</div>
+    <div class="overlay">
+      <form action="editproject.php">
+        <button type="submit" class="btn btn-primary edit">Edit</button>
+      </form>
     </div>
   </article>
-
 </div>

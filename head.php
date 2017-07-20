@@ -8,19 +8,10 @@
   <title><?php echo "$page_title - Solaset" ?></title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-  .footer {margin-top:50px;}
-  .container .text-muted {
-    margin: 20px 0;
-    text-align: center;
-  }
-  .footer > .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  </style>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 
-  <?php include_once("navbar.php"); ?>
+  <?php include_once("/navbar.php"); ?>
