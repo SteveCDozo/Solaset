@@ -43,6 +43,11 @@ nav, .nav, .navbar {
 .navbar .navbar-brand {
   padding-top: 8px;
 }
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
 nav .name {
   text-transform: capitalize;
 }
