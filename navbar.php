@@ -6,7 +6,7 @@
       </a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="/addproject.php">Add Project</a></li>
+      <li><a href="/addproject.php">Add Project</a></li>
       <li><a href="/manageprojects.php">Manage Projects</a></li>
       <li><a href="/fundedprojects.php">Funded Projects</a></li>
     </ul>

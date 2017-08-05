@@ -1,3 +1,13 @@
+/* fonts */
+@font-face {
+  font-family: markpro;
+  src: url(/fonts/markpro.otf);
+}
+@font-face {
+  font-family: markprobold;
+  src: url(/fonts/markpro-bold.otf);
+}
+/* sitewide css */
 body {
   background-color: #fafafa;
 }
@@ -16,6 +26,11 @@ body {
 /* navigation */
 nav {
   text-transform: uppercase;
+  font-family: markpro;
+  font-weight: bold;
+  font-size: 110%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 nav, .nav, .navbar {
   background-color: white;
