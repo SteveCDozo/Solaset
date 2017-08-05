@@ -45,7 +45,7 @@
     <div class="col-md-10">
       <div id="projects-table" class="panel panel-default">
         <div class="panel-heading">
-          <div class="panel-title"><b>500 projects</b></div>
+          <div class="panel-title"><b>25 projects</b></div>
         </div>
         <div class="panel-body">
           <div class="row">

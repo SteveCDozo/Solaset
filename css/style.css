@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: markprobold;
-  src: url(/fonts/markpro-bold.otf);
+  src: url(/fonts/markpro-book.otf);
 }
 /* sitewide css */
 body {
@@ -26,14 +26,22 @@ body {
 /* navigation */
 nav {
   text-transform: uppercase;
-  font-family: markpro;
-  font-weight: bold;
+  font-family: markprobold;
   font-size: 110%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #6198d0;
+}
 nav, .nav, .navbar {
   background-color: white;
+}
+.navbar .navbar-brand {
+  padding-top: 8px;
 }
 nav .name {
   text-transform: capitalize;
