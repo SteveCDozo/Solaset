@@ -41,27 +41,20 @@
   </section>
   <!-- Table of projects -->
   <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-      <div id="projects-table" class="panel panel-default">
-        <div class="panel-heading">
-          <div class="panel-title"><b>25 projects</b></div>
+    <div id="projects-table" style="width: 1200px; margin: 0 auto;">
+        <div class="well" style="border-radius: 0; padding:8px 0px 8px 12px;color:white;background-color: #6198d0;font-size: 120%;">25 Projects</div>
+        <div class="row">
+          <?php include("/ghanaprojectexample.php"); ?>
+          <?php include("/ghanaprojectexample.php"); ?>
+          <?php include("/ghanaprojectexample.php"); ?>
         </div>
-        <div class="panel-body">
-          <div class="row">
-            <?php include("/ghanaprojectexample.php"); ?>
-            <?php include("/ghanaprojectexample.php"); ?>
-            <?php include("/ghanaprojectexample.php"); ?>
-          </div>
-          <div class="row">
-            <?php include("/ghanaprojectexample.php"); ?>
-            <?php include("/ghanaprojectexample.php"); ?>
-            <?php include("/ghanaprojectexample.php"); ?>
-          </row>
+        <div class="row">
+          <?php include("/ghanaprojectexample.php"); ?>
+          <?php include("/ghanaprojectexample.php"); ?>
+          <?php include("/ghanaprojectexample.php"); ?>
         </div>
       </div>
     </div>
-    <div class="col-md-1"></div>
   </div>
 </div>
 <script>
