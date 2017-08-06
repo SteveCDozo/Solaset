@@ -1,5 +1,8 @@
-<?php $page_title = "Funded Projects" ?>
-<?php include_once("/head.php"); ?>
+<?php
+$page_title = "Funded Projects";
+$navbar_links = "command-navbar-links.php";
+include_once("/head.php");
+?>
 <section id="manage-projects-page">
 <div class="container-fluid">
   <!-- filter/sort section -->

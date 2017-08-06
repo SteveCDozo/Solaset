@@ -1,5 +1,8 @@
-<?php $page_title = "Document Center" ?>
-<?php include_once("/head.php"); ?>
+<?php
+$page_title = "Document Center";
+$navbar_links = "command-navbar-links.php";
+include_once("/head.php");
+?>
   <div class="container-fluid">
     <!-- tabs -->
     <section style="text-align:center;padding-top:30px;">

@@ -1,5 +1,8 @@
-<?php $page_title = "Add Partner" ?>
-<?php include_once("/head.php"); ?>
+<?php
+$page_title = "Add Partner";
+$navbar_links = "command-navbar-links.php";
+include_once("/head.php");
+?>
   <!-- project information -->
   <div class="container-fluid">
     <h4>Account NO. 1234567<span style="float:right;">Temp. Password: Zf123a45</span></h4>

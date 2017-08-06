@@ -1,5 +1,8 @@
-<?php $page_title = "Manage Projects" ?>
-<?php include_once("/head.php"); ?>
+<?php
+$page_title = "Manage Projects";
+$navbar_links = "command-navbar-links.php";
+include_once("/head.php");
+?>
 <section id="manage-projects-page">
 <div class="container-fluid">
   <!-- filter/sort section -->
@@ -11,7 +14,7 @@
           <div class="form-group">
             <label for="">Filter by: </label>
             <select class="form-control" id="">
-              <option value="" selected disabled>All</option>
+              <option value="" selected>All</option>
               <option value="">Residential</option>
               <option value="">Commercial</option>
               <option value="">Utility</option>
@@ -40,23 +43,23 @@
     </div>
   </section>
   <!-- Table of projects -->
-  <div class="row">
-    <div id="projects-table" style="width: 1200px; margin: 0 auto;">
-        <div class="well" style="border-radius: 0; padding:8px 0px 8px 12px;color:white;background-color: #6198d0;font-size: 120%;">25 Projects</div>
-        <div class="row">
-          <?php include("/ghanaprojectexample.php"); ?>
-          <?php include("/ghanaprojectexample.php"); ?>
-          <?php include("/ghanaprojectexample.php"); ?>
-        </div>
-        <div class="row">
-          <?php include("/ghanaprojectexample.php"); ?>
-          <?php include("/ghanaprojectexample.php"); ?>
-          <?php include("/ghanaprojectexample.php"); ?>
-        </div>
+  <div style="width: 1100px; margin: 0 auto;">
+    <div class="row" id="projects-table">
+      <div class="well" style="border-radius: 0; padding:8px 0px 8px 12px;color:white;background-color: #4e90cd;font-size: 120%;font-weight:bold;">25 Projects</div>
+      <div class="row">
+        <?php include("/ghanaprojectexample.php"); ?>
+        <?php include("/ghanaprojectexample.php"); ?>
+        <?php include("/ghanaprojectexample.php"); ?>
+      </div>
+      <div class="row">
+        <?php include("/ghanaprojectexample.php"); ?>
+        <?php include("/ghanaprojectexample.php"); ?>
+        <?php include("/ghanaprojectexample.php"); ?>
       </div>
     </div>
   </div>
 </div>
+</section>
 <script>
 $(function() {
   $("#projects-table article").hover(

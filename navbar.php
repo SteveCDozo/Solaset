@@ -7,12 +7,10 @@
         </a>
       </div>
       <ul class="nav navbar-nav navbar-center">
-        <li><a href="/addproject.php">Add Project</a></li>
-        <li><a href="/manageprojects.php">Manage Projects</a></li>
-        <li><a href="/fundedprojects.php">Funded Projects</a></li>
+        <?php include_once($navbar_links); ?>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+        <li><a href="/dashboard.php"><i class="fa fa-envelope-o"></i></a></li>
         <li class="dropdown">
           <a class="dropdown-toggle name" data-toggle="dropdown" href="#">John
             <span class="caret"></span>

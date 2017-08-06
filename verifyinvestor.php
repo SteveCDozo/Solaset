@@ -1,5 +1,8 @@
-<?php $page_title = "Verify Investor" ?>
-<?php include_once("/head.php"); ?>
+<?php
+$page_title = "Verify Investor";
+$navbar_links = "command-navbar-links.php";
+include_once("/head.php");
+?>
 <section id="verify-investor-page">
 <!-- project information -->
 <div class="container-fluid">

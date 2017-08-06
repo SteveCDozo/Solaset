@@ -1,5 +1,8 @@
-<?php $page_title = "Edit Project" ?>
-<?php include_once("/head.php"); ?>
+<?php
+$page_title = "Edit Project";
+$navbar_links = "command-navbar-links.php";
+include_once("/head.php");
+?>
 <section id="edit-project-page">
   <div class="container-fluid">
     <div class="row">

@@ -1,5 +1,8 @@
-<?php $page_title = "Add Project" ?>
-<?php include_once("/head.php"); ?>
+<?php
+$page_title = "Add Project";
+$navbar_links = "command-navbar-links.php";
+include_once("/head.php");
+?>
   <!-- project information -->
   <div class="container-fluid">
     <h4>Project ID: 12345</h4>
