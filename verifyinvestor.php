@@ -1,6 +1,6 @@
 <?php
 $page_title = "Verify Investor";
-$navbar_links = "command-navbar-links.php";
+$command = true;
 include_once("/head.php");
 ?>
 <section id="verify-investor-page">

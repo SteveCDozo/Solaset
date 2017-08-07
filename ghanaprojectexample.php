@@ -1,6 +1,6 @@
 <div class="col-md-4">
   <article style="background-color:white;padding: 15px 10px 15px 10px; margin-top: 10px; margin-bottom: 10px;box-shadow: 0px 0px 5px #bab8b8">
-    <img class="img img-responsive" src="/img/ghana.jpg">
+    <img class="img img-responsive" src="<?php echo "/img/houses/$house_img"; ?>">
     <h4>University of Ghana, 10KW</h4>
     <p>UG wants to solar power their new science building so students can do labs without the light going off on them..</p>
     <ul class="list-inline">

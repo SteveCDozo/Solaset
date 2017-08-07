@@ -1,6 +1,6 @@
 <?php
 $page_title = "Add Partner";
-$navbar_links = "command-navbar-links.php";
+$command = true;
 include_once("/head.php");
 ?>
   <!-- project information -->

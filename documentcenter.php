@@ -1,6 +1,6 @@
 <?php
 $page_title = "Document Center";
-$navbar_links = "command-navbar-links.php";
+$command = true;
 include_once("/head.php");
 ?>
   <div class="container-fluid">

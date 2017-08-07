@@ -34,6 +34,9 @@ nav {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.navbar {
+  margin-bottom: 30px;
+}
 .navbar-default .navbar-nav > li > a {
   color: black;
 }
@@ -185,7 +188,8 @@ input:checked + .slider:before {
 }
 /* footer */
 .footer {
-  margin-top:50px;
+  margin-top: 70px;
+  margin-bottom: 0;
 }
 .footer > .container {
   padding-right: 15px;
@@ -193,5 +197,4 @@ input:checked + .slider:before {
 }
 .footer > .container .text-muted {
   margin: 20px 0;
-  text-align: center;
 }
