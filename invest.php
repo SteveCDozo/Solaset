@@ -1,6 +1,7 @@
 <?php
 $page_title = "Invest";
 $command = false;
+$action = "invest";
 include_once("/head.php");
 ?>
 <section id="manage-projects-page">

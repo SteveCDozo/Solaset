@@ -13,8 +13,8 @@
       <div class="progress-bar" role="progressbar" style="width:70%;">$7,500 left</div>
     </div>
     <div class="overlay">
-      <form action="editproject.php">
-        <button type="submit" class="btn edit">Edit</button>
+      <form action="<?php echo $action; ?>project.php">
+        <button type="submit" class="btn edit"><?php echo ($action=="edit") ? "Edit" : "Learn More"; ?></button>
       </form>
     </div>
   </article>

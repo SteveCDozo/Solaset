@@ -1,6 +1,7 @@
 <?php
 $page_title = "Manage Projects";
 $command = true;
+$action = "edit";
 include_once("/head.php");
 ?>
 <section id="manage-projects-page">
@@ -37,6 +38,7 @@ include_once("/head.php");
               <option value="">Term - Longest to Shortest</option>
             </select>
           </div>
+          <input type="reset" class="btn btn-danger" value="Clear" style="margin-left:10px;">
         </form>
       </div>
       <div class="col-md-2"></div>

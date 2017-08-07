@@ -26,6 +26,13 @@ body {
   padding-right: 25px;
   padding-bottom: 25px;
 }
+.content {
+  background-color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  padding: 20px;
+}
 /* navigation */
 nav {
   text-transform: uppercase;
@@ -48,6 +55,7 @@ nav, .nav, .navbar {
 }
 .navbar .navbar-brand {
   padding-top: 8px;
+  padding-left: 0;
 }
 .navbar-nav.navbar-center {
   position: absolute;
@@ -94,14 +102,14 @@ nav .dropdown-menu {
   margin: 0 auto;
 }
 /* edit project page */
-#edit-project-page #project-info ul {
+#project-info {
   list-style: none;
   font-size: 200%;
 }
-#edit-project-page #investor-info {
+#investor-info {
   margin-bottom: 50px;
 }
-#edit-project-page #investor-info img {
+#investor-info img {
   margin-bottom: 20px;
 }
 /* verify investor page */
@@ -170,10 +178,10 @@ nav .dropdown-menu {
   transition: .4s;
 }
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #5cb85c;
 }
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #5cb85c;
 }
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
@@ -185,6 +193,10 @@ input:checked + .slider:before {
 }
 .slider.round:before {
   border-radius: 50%;
+}
+/* investproject page */
+#dashboard {
+  background-color: white;
 }
 /* footer */
 .footer {

@@ -8,7 +8,9 @@ include_once("/head.php");
     <!-- filter/sort section -->
     <div id="dashboard">
       <div class="row top" style="border-style: solid;vertical-align:middle;">
-        <h2 style="display:inline;">Account Value $40,000.78</h2><span style="float:right;color:#4e90cd;font-size:110%;padding-top:7px;"><a href="#"><span class="glyphicon glyphicon-plus-sign"></span> Add Funds</a></span>
+        <div class="col-md-12">
+          <h2 style="display:inline;">Account Value: $40,000.78</h2><span style="float:right;color:#4e90cd;font-size:110%;padding-top:7px;"><a href="#"><span class="glyphicon glyphicon-plus-sign"></span> Add Funds</a></span>
+        </div>
       </div>
       <div class="row" style="border-style: none solid; display:flex;">
         <div class="col-md-5 text-center info" style="border-right-style: solid;">

@@ -88,18 +88,4 @@ include_once("/head.php");
     </div>
   </div>
 </section>
-<script>
-$(function() {
-  $("#manage-projects-table article").hover(
-    // over
-    function() {
-      $(this).find(".overlay").css("display", "flex");
-    },
-    // out
-    function() {
-      $(this).find(".overlay").css("display", "none");
-    }
-  );
-});
-</script>
 <?php include_once("/end.php"); ?>
