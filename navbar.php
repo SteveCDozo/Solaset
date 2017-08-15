@@ -9,7 +9,7 @@
       </div>
       <ul class="nav navbar-nav navbar-center">
         <?php
-          foreach ($nav_menu[$portal] as $menu_item) {
+          foreach ($site_menu[$portal] as $menu_item) {
             echo "<li><a href={$menu_item['link']}>{$menu_item['text']}</a></li>";
           }
         ?>
@@ -21,15 +21,11 @@
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="/addpartner.php">Add Partner</a></li>
-            <li><a href="/verifyinvestor.php">Verify Investor</a></li>
-            <li><a href="/documentcenter.php">Document Center</a></li>
-            <li><a href="#">Country Information</a></li>
-            <li><a href="#">Add Administrator</a></li>
-            <li><a href="#">Account History</a></li>
-            <li><a href="#">Databases</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Sign Out</a></li>
+            <?php
+              foreach ($account_menu[$portal] as $menu_item) {
+                echo "<li><a href={$menu_item['link']}>{$menu_item['text']}</a></li>";
+              }
+            ?>
           </ul>
         </li>
       </ul>

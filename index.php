@@ -12,9 +12,12 @@ include_once("head.php");
         <form action="/addproject.php" style="display:inline-block;">
           <button type="submit" class="btn">Admin</button>
         </form>
-        <form action="/dashboard.php" style="display:inline-block;">
+        <form action="/dashboard.php" style="display:inline-block;padding-bottom:20px;">
           <button type="submit" class="btn">Investor</button>
         </form>
+        <hr>
+        <h1>Coming Soon</h1>
+        <br>
         <form action="#" style="display:inline-block;padding-bottom:20px;">
           <button type="submit" class="btn disabled">Borrower</button>
         </form>

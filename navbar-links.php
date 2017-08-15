@@ -1,6 +1,6 @@
 <?php
 
-$nav_menu = array(
+$site_menu = array(
   'admin' => array(
     array(
       'text' => 'Add Project',
@@ -38,34 +38,58 @@ $nav_menu = array(
 $account_menu = array(
   'admin' => array(
     array(
-      'text' => 'Add Project',
-      'link' => '/addproject.php'
+      'text' => 'Add Partner',
+      'link' => '/addpartner.php'
     ),
     array(
       'text' => 'Manage Projects',
       'link' => '/manageprojects.php'
     ),
     array(
-      'text' => 'Funded Projects',
-      'link' => '/fundedprojects.php'
+      'text' => 'Verify Investor',
+      'link' => '/verifyinvestor.php'
+    ),
+    array(
+      'text' => 'Document Center',
+      'link' => '/documentcenter.php'
+    ),
+    array(
+      'text' => 'Country Information',
+      'link' => '#'
+    ),
+    array(
+      'text' => 'Add Administrator',
+      'link' => '#'
+    ),
+    array(
+      'text' => 'Account History',
+      'link' => '#'
+    ),
+    array(
+      'text' => 'Databases',
+      'link' => '#'
+    ),
+    array(
+      'text' => 'Settings',
+      'link' => '#'
+    ),
+    array(
+      'text' => 'Sign Out',
+      'link' => '#'
     )
   ),
   'investor' => array(
     array(
-      'text' => 'Dashboard',
-      'link' => '/dashboard.php'
+      'text' => 'Account History',
+      'link' => '#'
     ),
     array(
-      'text' => 'Invest',
-      'link' => '/invest.php'
+      'text' => 'Settings',
+      'link' => '#'
     ),
     array(
-      'text' => 'FAQ',
-      'link' => '/faq.php'
-    ),
-    array(
-      'text' => 'Documents',
-      'link' => '/documents.php'
+      'text' => 'Sign Out',
+      'link' => '#'
     )
   )
 );
