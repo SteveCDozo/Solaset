@@ -1,6 +1,7 @@
 <?php
 $page_title = "Funded Projects";
 $portal = "admin";
+$action = "View";
 include_once("head.php");
 ?>
 <section id="manage-projects-page">
@@ -37,34 +38,43 @@ include_once("head.php");
               <option value="">Term - Longest to Shortest</option>
             </select>
           </div>
+          <input type="reset" class="btn" value="Clear" style="margin-left:10px;color:white;background-color:#4e90cd;">
         </form>
       </div>
       <div class="col-md-2"></div>
     </div>
   </section>
   <!-- Table of projects -->
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-      <div id="projects-table" class="panel panel-default">
-        <div class="panel-heading">
-          <div class="panel-title"><b>39 Projects, 2 Fully Paid, 1 in Funding, 30 Current, 2 Late, 1 Delinquent</b></div>
-        </div>
-        <div class="panel-body">
-          <div class="row">
-            <?php include("ghanaprojectexample.php"); ?>
-            <?php include("ghanaprojectexample.php"); ?>
-            <?php include("ghanaprojectexample.php"); ?>
-          </div>
-          <div class="row">
-            <?php include("ghanaprojectexample.php"); ?>
-            <?php include("ghanaprojectexample.php"); ?>
-            <?php include("ghanaprojectexample.php"); ?>
-          </row>
-        </div>
+  <div style="width: 1100px; margin: 0 auto;">
+    <div class="row" id="projects-table">
+      <div class="well" style="border-radius: 0; padding:8px 0px 8px 12px;color:white;background-color:#4e90cd;font-size: 120%;font-weight:bold;">39 Projects, 2 Fully Paid, 1 in Funding, 30 Current, 2 Late, 1 Delinquent</div>
+      <div class="row">
+        <?php
+        $house_img="1.jpg";
+        $house_name="University of Ghana";
+        include("ghanaprojectexample.php");
+        $house_img="2.jpg";
+        $house_name="Mankesim";
+        include("ghanaprojectexample.php");
+        $house_img="3.jpg";
+        $house_name="Labadi Beach Hotel";
+        include("ghanaprojectexample.php");
+        ?>
+      </div>
+      <div class="row">
+        <?php
+        $house_img="4.jpg";
+        $house_name="Tekno Enterprise";
+        include("ghanaprojectexample.php");
+        $house_img="5.jpg";
+        $house_name="Ofosu Family House";
+        include("ghanaprojectexample.php");
+        $house_img="6.jpg";
+        $house_name="SNITT Flats";
+        include("ghanaprojectexample.php");
+        ?>
       </div>
     </div>
-    <div class="col-md-1"></div>
   </div>
 </div>
 <script>

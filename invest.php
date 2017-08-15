@@ -1,7 +1,7 @@
 <?php
 $page_title = "Invest";
 $portal = "investor";
-$action = "invest";
+$action = "Learn More";
 include_once("head.php");
 ?>
 <section id="manage-projects-page">
