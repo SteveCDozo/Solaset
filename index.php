@@ -3,16 +3,23 @@ $page_title = "Home";
 $portal = "admin";
 include_once("head.php");
 ?>
-<!-- project information -->
 <div class="container-fluid">
-  <form action="#">
-    <button type="submit">Command Portal</button>
-  </form>
-  <form action="#">
-    <button type="submit">Investor Portal</button>
-  </form>
-  <form action="#">
-    <button type="submit">Borrower Portal</button>
-  </form>
+  <div class="site-wrapper content">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h1>Portal Select</h1>
+        <br>
+        <form action="/addproject.php" style="display:inline-block;">
+          <button type="submit" class="btn">Admin</button>
+        </form>
+        <form action="/dashboard.php" style="display:inline-block;">
+          <button type="submit" class="btn">Investor</button>
+        </form>
+        <form action="#" style="display:inline-block;padding-bottom:20px;">
+          <button type="submit" class="btn disabled">Borrower</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
 <?php include_once("end.php"); ?>
