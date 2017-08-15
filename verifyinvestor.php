@@ -1,6 +1,6 @@
 <?php
 $page_title = "Verify Investor";
-$command = true;
+$portal = "admin";
 include_once("/head.php");
 ?>
 <section id="verify-investor-page">

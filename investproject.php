@@ -1,6 +1,6 @@
 <?php
 $page_title = "Edit Project";
-$command = false;
+$portal = "investor";
 include_once("/head.php");
 ?>
 <div class="container-fluid">

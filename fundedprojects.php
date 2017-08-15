@@ -1,6 +1,6 @@
 <?php
 $page_title = "Funded Projects";
-$command = true;
+$portal = "admin";
 include_once("/head.php");
 ?>
 <section id="manage-projects-page">

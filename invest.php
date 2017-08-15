@@ -1,6 +1,6 @@
 <?php
 $page_title = "Invest";
-$command = false;
+$portal = "investor";
 $action = "invest";
 include_once("/head.php");
 ?>

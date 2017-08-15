@@ -1,7 +1,7 @@
 <?php
 $page_title = "Home";
-$command = true;
-include_once("/head.php");
+$portal = "admin";
+include_once("head.php");
 ?>
 <!-- project information -->
 <div class="container-fluid">
@@ -15,4 +15,4 @@ include_once("/head.php");
     <button type="submit">Borrower Portal</button>
   </form>
 </div>
-<?php include_once("/end.php"); ?>
+<?php include_once("end.php"); ?>

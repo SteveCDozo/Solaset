@@ -1,6 +1,6 @@
 <?php
 $page_title = "Edit Project";
-$command = true;
+$portal = "admin";
 include_once("/head.php");
 ?>
 <section id="edit-project-page">

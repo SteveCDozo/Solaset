@@ -1,6 +1,6 @@
 <?php
 $page_title = "Add Project";
-$command = true;
+$portal = "admin";
 include_once("/head.php");
 ?>
   <!-- project information -->

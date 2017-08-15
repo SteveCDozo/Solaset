@@ -1,6 +1,6 @@
 <?php
 $page_title = "Document Center";
-$command = true;
+$portal = "admin";
 include_once("/head.php");
 ?>
   <div class="container-fluid">

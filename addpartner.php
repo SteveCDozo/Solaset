@@ -1,7 +1,7 @@
 <?php
 $page_title = "Add Partner";
-$command = true;
-include_once("/head.php");
+$portal = "admin";
+include_once("head.php");
 ?>
   <!-- project information -->
   <div class="container-fluid">
