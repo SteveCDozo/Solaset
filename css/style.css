@@ -4,8 +4,15 @@
   src: url(/fonts/markpro.otf);
 }
 @font-face {
-  font-family: markprobold;
+  font-family: markprobook;
   src: url(/fonts/markpro-book.otf);
+}
+@font-face {
+  font-family: markprobold;
+  src: url(/fonts/markpro-bold.otf);
+}
+body {
+  font-family: markpro;
 }
 /* sitewide css */
 body {
@@ -36,7 +43,6 @@ body {
 /* navigation */
 nav {
   text-transform: uppercase;
-  font-family: markprobold;
   font-size: 110%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -102,9 +108,12 @@ nav .dropdown-menu {
   margin: 0 auto;
 }
 /* edit project page */
-#project-info {
+.project-info {
   list-style: none;
-  font-size: 200%;
+  font-size: 157%;
+}
+.project-info li{
+  margin-bottom:6px;
 }
 #investor-info {
   margin-bottom: 50px;

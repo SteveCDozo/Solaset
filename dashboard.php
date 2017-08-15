@@ -6,7 +6,7 @@ include_once("/head.php");
 <div class="container-fluid">
   <div style="width: 1100px; margin: 0 auto;">
     <!-- filter/sort section -->
-    <div id="dashboard">
+    <div id="dashboard" style="font-family:markpro;">
       <div class="row top" style="border-style: solid;vertical-align:middle;">
         <div class="col-md-12">
           <h2 style="display:inline;">Account Value: $40,000.78</h2><span style="float:right;color:#4e90cd;font-size:110%;padding-top:7px;"><a href="#"><span class="glyphicon glyphicon-plus-sign"></span> Add Funds</a></span>
@@ -42,10 +42,10 @@ include_once("/head.php");
         <div class="col-md-4" style="border-right-style: solid;">
           Auto Invest
           <label class="switch" style="vertical-align:middle;">
-            <input id="auto-invest" type="checkbox">
+            <input id="auto-invest" type="checkbox" checked>
             <span class="slider round"></span>
           </label>
-          <span id="auto-invest-status" class="text-left" style="display:inline-block;width:35px;margin-right:10px;">OFF</span>
+          <span id="auto-invest-status" class="text-left" style="display:inline-block;width:35px;margin-right:10px;">ON</span>
           <a href="#">Edit</a>
         </div>
         <div class="col-md-4" style="border-right-style: solid;">

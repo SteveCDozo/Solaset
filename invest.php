@@ -9,8 +9,8 @@ include_once("/head.php");
   <!-- filter/sort section -->
   <section id="filter">
     <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-8 text-center">
+      <div class="col-md-1"></div>
+      <div class="col-md-10 text-center">
         <form class="form-inline">
           <div class="form-group">
             <label for="">Filter by: </label>
@@ -38,9 +38,10 @@ include_once("/head.php");
               <option value="">Term - Longest to Shortest</option>
             </select>
           </div>
+          <input type="reset" class="btn" value="Clear" style="margin-left:5px;color:white;background-color:#4e90cd;">
         </form>
       </div>
-      <div class="col-md-2"></div>
+      <div class="col-md-1"></div>
     </div>
   </section>
   <!-- Table of projects -->
@@ -50,20 +51,26 @@ include_once("/head.php");
       <div class="row">
         <?php
         $house_img="1.jpg";
+        $house_name="University of Ghana";
         include("/ghanaprojectexample.php");
         $house_img="2.jpg";
+        $house_name="Mankesim";
         include("/ghanaprojectexample.php");
         $house_img="3.jpg";
+        $house_name="Labadi Beach Hotel";
         include("/ghanaprojectexample.php");
         ?>
       </div>
       <div class="row">
         <?php
         $house_img="4.jpg";
+        $house_name="Tekno Enterprise";
         include("/ghanaprojectexample.php");
         $house_img="5.jpg";
+        $house_name="Ofosu Family House";
         include("/ghanaprojectexample.php");
         $house_img="6.jpg";
+        $house_name="SNITT Flats";
         include("/ghanaprojectexample.php");
         ?>
       </div>

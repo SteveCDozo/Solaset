@@ -12,7 +12,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/dashboard.php"><i class="fa fa-envelope-o"></i></a></li>
         <li class="dropdown">
-          <a class="dropdown-toggle name" data-toggle="dropdown" href="#">John
+          <a class="dropdown-toggle name" data-toggle="dropdown" href="#">Hillary
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">

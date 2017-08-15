@@ -38,7 +38,7 @@ include_once("/head.php");
               <option value="">Term - Longest to Shortest</option>
             </select>
           </div>
-          <input type="reset" class="btn btn-danger" value="Clear" style="margin-left:10px;">
+          <input type="reset" class="btn" value="Clear" style="margin-left:10px;color:white;background-color:#4e90cd;">
         </form>
       </div>
       <div class="col-md-2"></div>
@@ -47,7 +47,7 @@ include_once("/head.php");
   <!-- Table of projects -->
   <div style="width: 1100px; margin: 0 auto;">
     <div class="row" id="projects-table">
-      <div class="well" style="border-radius: 0; padding:8px 0px 8px 12px;color:white;background-color: #4e90cd;font-size: 120%;font-weight:bold;">6 Projects</div>
+      <div class="well" style="border-radius: 0; padding:8px 0px 8px 12px;color:white;background-color:#4e90cd;font-size: 120%;font-weight:bold;">6 Projects</div>
       <div class="row">
         <?php
         $house_img="1.jpg";
