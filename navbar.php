@@ -7,7 +7,7 @@
         </a>
       </div>
       <ul class="nav navbar-nav navbar-center">
-        <?php $command ? include_once("command-navbar-links.php") : include_once("investor-navbar-links.php"); ?>
+        <?php include_once("{$portal}-navbar-links.php"); ?>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/dashboard.php"><i class="fa fa-envelope-o"></i></a></li>
