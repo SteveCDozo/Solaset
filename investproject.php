@@ -1,7 +1,7 @@
 <?php
 $page_title = "Edit Project";
 $portal = "investor";
-include_once("/head.php");
+include_once("head.php");
 ?>
 <div class="container-fluid">
   <div style="width: 1000px; margin: 0 auto;">
@@ -99,4 +99,4 @@ include_once("/head.php");
     </div>
   </div>
 </div>
-<?php include_once("/end.php"); ?>
+<?php include_once("end.php"); ?>

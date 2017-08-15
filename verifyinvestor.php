@@ -1,7 +1,7 @@
 <?php
 $page_title = "Verify Investor";
 $portal = "admin";
-include_once("/head.php");
+include_once("head.php");
 ?>
 <section id="verify-investor-page">
 <!-- project information -->
@@ -84,4 +84,4 @@ include_once("/head.php");
     <div class="col-md-4"></div>
   </div>
 </div>
-<?php include_once("/end.php"); ?>
+<?php include_once("end.php"); ?>

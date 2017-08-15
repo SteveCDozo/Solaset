@@ -2,7 +2,7 @@
 $page_title = "Invest";
 $portal = "investor";
 $action = "invest";
-include_once("/head.php");
+include_once("head.php");
 ?>
 <section id="manage-projects-page">
 <div class="container-fluid">
@@ -52,26 +52,26 @@ include_once("/head.php");
         <?php
         $house_img="1.jpg";
         $house_name="University of Ghana";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         $house_img="2.jpg";
         $house_name="Mankesim";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         $house_img="3.jpg";
         $house_name="Labadi Beach Hotel";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         ?>
       </div>
       <div class="row">
         <?php
         $house_img="4.jpg";
         $house_name="Tekno Enterprise";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         $house_img="5.jpg";
         $house_name="Ofosu Family House";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         $house_img="6.jpg";
         $house_name="SNITT Flats";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         ?>
       </div>
     </div>
@@ -92,4 +92,4 @@ $(function() {
   );
 });
 </script>
-<?php include_once("/end.php"); ?>
+<?php include_once("end.php"); ?>

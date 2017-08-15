@@ -26,7 +26,7 @@ include_once("head.php");
                   <input type="text" id="" class="form-control" name="" placeholder="Street Address"><br>
                   <input type="text" id="" class="form-control" name="" placeholder="City"><br>
                   <select class="form-control" id="">
-                    <?php include("/countrylist.php"); ?>
+                    <?php include("countrylist.php"); ?>
                   </select><br>
                   <input type="text" id="" class="form-control" name="" placeholder="Zip Code">
                 </div>
@@ -146,4 +146,4 @@ include_once("head.php");
       </div>
     </form>
   </div>
-<?php include_once("/end.php"); ?>
+<?php include_once("end.php"); ?>

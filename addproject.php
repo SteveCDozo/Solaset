@@ -1,7 +1,7 @@
 <?php
 $page_title = "Add Project";
 $portal = "admin";
-include_once("/head.php");
+include_once("head.php");
 ?>
   <!-- project information -->
   <div class="container-fluid">
@@ -40,7 +40,7 @@ include_once("/head.php");
                 <div class="form-group">
                   <label for="">Country</label>
                   <select class="form-control" id="">
-                    <?php include("/countrylist.php"); ?>
+                    <?php include("countrylist.php"); ?>
                   </select>
                 </div>
               </div>
@@ -191,4 +191,4 @@ include_once("/head.php");
 
   });
   </script>
-<?php include_once("/end.php"); ?>
+<?php include_once("end.php"); ?>

@@ -1,7 +1,7 @@
 <?php
 $page_title = "Funded Projects";
 $portal = "admin";
-include_once("/head.php");
+include_once("head.php");
 ?>
 <section id="manage-projects-page">
 <div class="container-fluid">
@@ -52,14 +52,14 @@ include_once("/head.php");
         </div>
         <div class="panel-body">
           <div class="row">
-            <?php include("/ghanaprojectexample.php"); ?>
-            <?php include("/ghanaprojectexample.php"); ?>
-            <?php include("/ghanaprojectexample.php"); ?>
+            <?php include("ghanaprojectexample.php"); ?>
+            <?php include("ghanaprojectexample.php"); ?>
+            <?php include("ghanaprojectexample.php"); ?>
           </div>
           <div class="row">
-            <?php include("/ghanaprojectexample.php"); ?>
-            <?php include("/ghanaprojectexample.php"); ?>
-            <?php include("/ghanaprojectexample.php"); ?>
+            <?php include("ghanaprojectexample.php"); ?>
+            <?php include("ghanaprojectexample.php"); ?>
+            <?php include("ghanaprojectexample.php"); ?>
           </row>
         </div>
       </div>
@@ -81,4 +81,4 @@ $(function() {
   );
 });
 </script>
-<?php include_once("/end.php"); ?>
+<?php include_once("end.php"); ?>

@@ -2,7 +2,7 @@
 $page_title = "Manage Projects";
 $portal = "admin";
 $action = "edit";
-include_once("/head.php");
+include_once("head.php");
 ?>
 <section id="manage-projects-page">
 <div class="container-fluid">
@@ -51,21 +51,21 @@ include_once("/head.php");
       <div class="row">
         <?php
         $house_img="1.jpg";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         $house_img="2.jpg";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         $house_img="3.jpg";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         ?>
       </div>
       <div class="row">
         <?php
         $house_img="4.jpg";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         $house_img="5.jpg";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         $house_img="6.jpg";
-        include("/ghanaprojectexample.php");
+        include("ghanaprojectexample.php");
         ?>
       </div>
     </div>
@@ -86,4 +86,4 @@ $(function() {
   );
 });
 </script>
-<?php include_once("/end.php"); ?>
+<?php include_once("end.php"); ?>

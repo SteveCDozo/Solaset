@@ -1,7 +1,7 @@
 <?php
 $page_title = "Document Center";
 $portal = "admin";
-include_once("/head.php");
+include_once("head.php");
 ?>
   <div class="container-fluid">
     <!-- tabs -->
@@ -29,4 +29,4 @@ include_once("/head.php");
       </div>
     </section>
   </div>
-<?php include_once("/end.php"); ?>
+<?php include_once("end.php"); ?>

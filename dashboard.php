@@ -1,7 +1,7 @@
 <?php
 $page_title = "Dashboard";
 $portal = "investor";
-include_once("/head.php");
+include_once("head.php");
 ?>
 <div class="container-fluid">
   <div style="width: 1100px; margin: 0 auto;">
@@ -69,4 +69,4 @@ $(function() {
   });
 });
 </script>
-<?php include_once("/end.php"); ?>
+<?php include_once("end.php"); ?>

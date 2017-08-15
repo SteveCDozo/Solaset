@@ -1,7 +1,7 @@
 <?php
 $page_title = "Edit Project";
 $portal = "admin";
-include_once("/head.php");
+include_once("head.php");
 ?>
 <section id="edit-project-page">
   <div class="container-fluid">
@@ -88,4 +88,4 @@ include_once("/head.php");
     </div>
   </div>
 </section>
-<?php include_once("/end.php"); ?>
+<?php include_once("end.php"); ?>
