@@ -5,7 +5,12 @@ include_once("head.php");
 ?>
 <div class="container-fluid">
   <div style="width: 1100px; margin: 0 auto;">
-    <!-- filter/sort section -->
+    <!-- notification box -->
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 text-center" style="background-color:#4e90cd;padding:10px 0;margin-bottom:20px;">
+        <a href="#" style="color:white;font-size:130%;">Verify your accreditation status now to get started!</a>
+      </div>
+    </div>
     <div id="dashboard" style="font-family:markpro;">
       <div class="row top" style="border-style: solid;vertical-align:middle;">
         <div class="col-md-12">
