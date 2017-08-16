@@ -87,10 +87,7 @@ include_once("head.php");
                 <label style="font-size:140%;">Target number of projects</label>
                 <div class="row">
                   <div class="col-xs-6 col-xs-offset-3">
-                    <div class="input-group">
-                      <span class="input-group-addon">$</span>
-                      <input type="text" class="form-control" placeholder="ex. 2,500">
-                    </div>
+                    <input type="text" class="form-control" placeholder="ex. 2,500">
                   </div>
                 </div>
               </div>
