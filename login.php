@@ -18,7 +18,7 @@
   <div class="container-fluid">
     <div style="width:400px; margin: 0 auto;">
     <div class="row" style="margin-top:100px;">
-      <div class="col-md-12">
+      <div class="col-xs-12">
         <a href="/"><img alt="Solaset" src="/img/solaset.png" width="200" style="display:block;margin: 0 auto;"></a>
         <section class="content" style="margin-top:45px;">
           <h5 style="font-size:130%;padding-top:2px;" class="text-center"><b>Welcome back!</b></h5>

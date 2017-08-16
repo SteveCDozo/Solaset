@@ -7,22 +7,22 @@ include_once("head.php");
   <div style="width: 1100px; margin: 0 auto;">
     <!-- notification box -->
     <div class="row">
-      <div class="col-md-10 col-md-offset-1 text-center" style="background-color:#4e90cd;padding:10px 0;margin-bottom:20px;">
+      <div class="col-xs-10 col-xs-offset-1 text-center" style="background-color:#4e90cd;padding:10px 0;margin-bottom:20px;">
         <a href="#" style="color:white;font-size:130%;">Verify your accreditation status now to get started!</a>
       </div>
     </div>
     <div id="dashboard" style="font-family:markpro;">
       <div class="row top" style="border-style: solid;vertical-align:middle;">
-        <div class="col-md-12">
+        <div class="col-xs-12">
           <h2 style="display:inline;">Account Value: $40,000.78</h2><span style="float:right;color:#4e90cd;font-size:110%;padding-top:7px;"><a href="#"><span class="glyphicon glyphicon-plus-sign"></span> Add Funds</a></span>
         </div>
       </div>
       <div class="row" style="border-style: none solid; display:flex;">
-        <div class="col-md-5 text-center info" style="border-right-style: solid;">
+        <div class="col-xs-5 text-center info" style="border-right-style: solid;">
           <h1 style="font-size:80px;padding-bottom:30px;">21</h1>
           <h3>People now have reliable electricity because of your investments</h3>
         </div>
-        <div class="col-md-7 details">
+        <div class="col-xs-7 details">
           <div class="row">
             Available Balance:<span style="float:right;">$20,000.00</span>
           </div>
@@ -44,7 +44,7 @@ include_once("head.php");
         </div>
       </div>
       <div class="row bottom" style="border-style: solid;display:flex;">
-        <div class="col-md-4" style="border-right-style: solid;">
+        <div class="col-xs-4" style="border-right-style: solid;">
           Auto Invest
           <label class="switch" style="vertical-align:middle;">
             <input id="auto-invest" type="checkbox" checked>
@@ -53,15 +53,15 @@ include_once("head.php");
           <span id="auto-invest-status" class="text-left" style="display:inline-block;width:35px;margin-right:10px;">ON</span>
           <a data-toggle="modal" href="#edit-modal" data-rel="popup">Edit</a>
         </div>
-        <div class="col-md-4" style="border-right-style: solid;">
+        <div class="col-xs-4" style="border-right-style: solid;">
           <a href="#"><span class="glyphicon glyphicon-folder-open" style="padding-right:4px;"></span>  Portfolio</a>
         </div>
-        <div class="col-md-4">
+        <div class="col-xs-4">
           <a href="#"><span class="glyphicon glyphicon-usd"></span> Withdraw Funds</a>
         </div>
       </div>
     </div>
-    <div id="edit-modal" class="modal fade">
+    <div id="edit-modal" class="modal fade" style="">
       <div class="modal-dialog">
         <div class="modal-content text-center" style="padding-bottom:20px;">
           <div class="modal-header">
@@ -73,7 +73,7 @@ include_once("head.php");
               <div class="form-group">
                 <label style="font-size:140%;">Maximum amount to invest per project</label>
                 <div class="row">
-                  <div class="col-md-6 col-md-offset-3">
+                  <div class="col-xs-6 col-xs-offset-3">
                     <div class="input-group">
                       <span class="input-group-addon">$</span>
                       <input type="text" class="form-control" placeholder="ex. 2,500">
@@ -86,7 +86,7 @@ include_once("head.php");
               <div class="form-group">
                 <label style="font-size:140%;">Target number of projects</label>
                 <div class="row">
-                  <div class="col-md-6 col-md-offset-3">
+                  <div class="col-xs-6 col-xs-offset-3">
                     <div class="input-group">
                       <span class="input-group-addon">$</span>
                       <input type="text" class="form-control" placeholder="ex. 2,500">

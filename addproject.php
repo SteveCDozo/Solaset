@@ -9,14 +9,14 @@ include_once("head.php");
     <h3 class="page-header text-center">Add Project</h3>
     <form>
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
           <div class="panel panel-default">
             <div class="panel-heading">
               <div class="panel-title text-center"><b>Project Description</b></div>
             </div>
             <div class="panel-body">
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="form-group">
                   <label for="">Customer Name</label>
                   <input type="text" id="" class="form-control" name="">
@@ -44,7 +44,7 @@ include_once("head.php");
                   </select>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="form-group">
                   <label for="">Loan Contract</label>
                   <div class="input-group">
@@ -81,19 +81,19 @@ include_once("head.php");
             </div>
           </div>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-xs-2"></div>
       </div>
 
 
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
           <div class="panel panel-default">
             <div class="panel-heading">
               <div class="panel-title text-center"><b>Financials</b></div>
             </div>
             <div class="panel-body">
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="form-group">
                   <label for="">Amount</label>
                   <div class="input-group">
@@ -121,7 +121,7 @@ include_once("head.php");
                   <input type="text" id="" class="form-control" name="">
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="form-group">
                   <label for="">Total Amount Partner Repays</label>
                   <input type="text" id="" class="form-control" name="">
@@ -142,14 +142,14 @@ include_once("head.php");
             </div>
           </div>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-xs-2"></div>
       </div>
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-6">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-6">
           <input type="reset" class="btn btn-danger" value="Clear">
         </div>
-        <div class="col-md-2">
+        <div class="col-xs-2">
           <div class="input-group">
             <input type="password" class="form-control" placeholder="Password">
             <span class="input-group-btn">
@@ -157,7 +157,7 @@ include_once("head.php");
             </span>
           </div>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-xs-2"></div>
       </div>
     </form>
   </div>

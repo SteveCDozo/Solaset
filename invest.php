@@ -9,8 +9,8 @@ include_once("head.php");
   <!-- filter/sort section -->
   <section id="filter">
     <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10 text-center">
+      <div class="col-xs-1"></div>
+      <div class="col-xs-10 text-center">
         <form class="form-inline">
           <div class="form-group">
             <label for="">Filter by: </label>
@@ -41,7 +41,7 @@ include_once("head.php");
           <input type="reset" class="btn" value="Clear" style="margin-left:5px;color:white;background-color:#4e90cd;">
         </form>
       </div>
-      <div class="col-md-1"></div>
+      <div class="col-xs-1"></div>
     </div>
   </section>
   <!-- Table of projects -->

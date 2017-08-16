@@ -9,14 +9,14 @@ include_once("head.php");
     <h3 class="page-header text-center">Add Partner</h3>
     <form>
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
           <div class="panel panel-default">
             <div class="panel-heading">
               <div class="panel-title text-center"><b>Company Information</b></div>
             </div>
             <div class="panel-body">
-              <div class="col-md-4">
+              <div class="col-xs-4">
                 <div class="form-group">
                   <label for="">Company Name</label>
                   <input type="text" id="" class="form-control" name="">
@@ -31,7 +31,7 @@ include_once("head.php");
                   <input type="text" id="" class="form-control" name="" placeholder="Zip Code">
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-xs-4">
                 <div class="form-group">
                   <label for="">Year Established</label>
                   <input type="text" id="" class="form-control" name="" placeholder="ex. 1999">
@@ -55,7 +55,7 @@ include_once("head.php");
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-xs-4">
                 <div class="form-group">
                   <label for="">Website</label>
                   <input type="text" id="" class="form-control" name="">
@@ -68,17 +68,17 @@ include_once("head.php");
             </div>
           </div>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-xs-2"></div>
       </div>
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
           <div class="panel panel-default">
             <div class="panel-heading">
               <div class="panel-title text-center"><b>Contacts</b></div>
             </div>
             <div class="panel-body">
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <h4><b>Primary</b></h4>
                 <div class="form-group">
                   <label for="">First Name</label>
@@ -101,7 +101,7 @@ include_once("head.php");
                   <input type="text" id="" class="form-control" name="" placeholder="ex. +2341239848">
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <h4><b>Secondary</b></h4>
                 <div class="form-group">
                   <label for="">First Name</label>
@@ -127,14 +127,14 @@ include_once("head.php");
             </div>
           </div>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-xs-2"></div>
       </div>
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-6">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-6">
           <input type="reset" class="btn btn-danger" value="Clear">
         </div>
-        <div class="col-md-2">
+        <div class="col-xs-2">
           <div class="input-group">
             <input type="password" class="form-control" placeholder="Enter Password">
             <span class="input-group-btn">
@@ -142,7 +142,7 @@ include_once("head.php");
             </span>
           </div>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-xs-2"></div>
       </div>
     </form>
   </div>

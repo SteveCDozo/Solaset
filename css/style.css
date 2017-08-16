@@ -161,6 +161,23 @@ nav .dropdown-menu {
 #dashboard .bottom [class^='col-'] {
   padding: 30px 0;
 }
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; /* Adjusts for spacing */
+}
+
+.modal-dialog {
+  display: inline-block;
+  vertical-align: middle;
+}
 .switch {
   position: relative;
   display: inline-block;

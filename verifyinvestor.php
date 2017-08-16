@@ -8,14 +8,14 @@ include_once("head.php");
 <div class="container-fluid">
   <h3 class="page-header text-center">Verify Investor</h3>
   <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
+    <div class="col-xs-4"></div>
+    <div class="col-xs-4">
       <div class="panel panel-default">
         <div class="panel-body">
           <h4 class="panel-header text-center"><b>Check Investor Status</b></h4>
           <div class="row" style="padding-bottom: 20px;">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-8">
               <form>
                 <div class="form-group">
                   <label for="">Investor Name</label>
@@ -34,13 +34,13 @@ include_once("head.php");
                 </div>
               </form>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-xs-2"></div>
           </div>
           <hr>
           <h4 class="panel-header text-center"><b>Search Results</b></h4>
           <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
+            <div class="col-xs-1"></div>
+            <div class="col-xs-10">
               <table id="results-table" class="table table-hover">
                 <tbody>
                   <tr>
@@ -76,12 +76,12 @@ include_once("head.php");
                 </tbody>
               </table>
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-xs-1"></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-md-4"></div>
+    <div class="col-xs-4"></div>
   </div>
 </div>
 <?php include_once("end.php"); ?>

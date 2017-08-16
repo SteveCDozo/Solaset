@@ -12,8 +12,8 @@ include_once("head.php");
     <!-- Table of projects -->
     <section style="padding-top:20px;">
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
           <div class="panel panel-default">
             <div class="panel-heading">
               <div class="panel-title"><b>For All Investors</b><span style="padding-left:20px;"><a href="#">Add New</a></span></div>
@@ -25,7 +25,7 @@ include_once("head.php");
             </div>
           </div>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-xs-2"></div>
       </div>
     </section>
   </div>

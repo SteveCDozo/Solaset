@@ -6,7 +6,7 @@ include_once("head.php");
 <div class="container-fluid">
   <div class="site-wrapper content">
     <div class="row text-center">
-      <div class="col-md-12">
+      <div class="col-xs-12">
         <h1>Portal Select</h1>
         <br>
         <form action="/addproject.php" style="display:inline-block;">

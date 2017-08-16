@@ -7,29 +7,29 @@ include_once("head.php");
   <div style="width: 1000px; margin: 0 auto;">
     <section class="content">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-xs-12">
           <h2 class="text-center" style="margin-top:10px;margin-bottom:40px;font-weight:600;">Ofosu Family House, 10KW system</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-xs-6">
           <img class="img img-responsive" src="/img/houses/5.jpg" width="530">
         </div>
-        <div class="col-md-6"> <!--style="padding-left:30px;">-->
+        <div class="col-xs-6"> <!--style="padding-left:30px;">-->
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-xs-12">
               <h4 style="margin-top:0px;">$7,500 left<span style="float:right;">30 days left</span></h4>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-xs-12">
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:70%"></div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-xs-12">
               <ul class="project-info" style="padding-left:0;float:left;">
                 <li><span class="glyphicon glyphicon-usd text-primary"></span></li>
                 <li><span class="glyphicon glyphicon-calendar text-primary"></span></li>
@@ -45,7 +45,7 @@ include_once("head.php");
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-xs-12">
               <form action="#">
                 <button type="submit" class="btn btn-primary" style="font-size:120%;padding: 5px 20px;">Invest</button>
               </form>
@@ -55,7 +55,7 @@ include_once("head.php");
       </div>
       <hr style="margin-top:30px;">
       <div class="row" style="margin-top:20px;">
-        <div class="col-md-12">
+        <div class="col-xs-12">
           <p style="font-size:120%;text-align:justify;">
             Duis tincidunt euismod mi at lobortis. Maecenas nec vulputate tellus, ac pharetra massa. Vestibulum id dictum risus, non cursus tortor. Curabitur at purus in nibh pharetra ultricies. Curabitur ac tincidunt mauris, id ultricies lectus. Donec fermentum, nunc ut facilisis placerat, dolor urna viverra nibh, ut laoreet ipsum velit ac lacus. Phasellus vitae lacinia quam, sed congue arcu. Duis tincidunt euismod mi at lobortis.
           </p>
@@ -66,7 +66,7 @@ include_once("head.php");
       </div>
     </section>
     <div class="row" style="display:flex;margin-top:30px;">
-        <div class="col-md-6 text-center">
+        <div class="col-xs-6 text-center">
           <section class="content" style="height:100%;">
             <h3 style="margin-bottom: 20px;font-weight:600;">Country Profile</h3>
             <img class="img" style="margin-top:10px;" height="180" width="200" src="/img/prof.jpg">
@@ -75,7 +75,7 @@ include_once("head.php");
             <p style="font-size:120%;">Short sentence about electricity issues in the country lorem psum dolor sit amet, conseectuer adjipeicing elit, sed do ejusmod tempor indicucent ut labore set dolore manga alizqua.</p>
           </section>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-6">
           <section class="content">
             <h3 style="margin-bottom: 20px;font-weight:600;">Solar Partner: Solarlight</h3>
             <h4 style="font-size:140%;"><b>Why we work with Solarlight</b></h4>
