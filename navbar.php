@@ -15,20 +15,23 @@
         ?>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown" style="margin-top:13px;">
-          <button class="dropdown-toggle name" data-toggle="dropdown" style="background-color:transparent;border-style:none;">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
             <i class="fa fa-envelope-o"></i>
-          </button>
-          <ul class="dropdown-menu">
+          </a>
+          <ul id="notifs_dropdown" class="dropdown-menu" style="">
             <?php
               foreach ($notifications[$portal] as $notif_item) {
-                echo "<li><a href={$notif_item['link']}>{$notif_item['text']}</a></li>";
+                echo "<li><a class='notif_link' href={$notif_item['link']}";
+                echo ($notif_item['link'][0]=="/") ? "" : " target='_blank'";
+                echo ">{$notif_item['text']}</a></li>";
               }
             ?>
           </ul>
         </li>
         <li class="dropdown">
-          <a class="dropdown-toggle name" data-toggle="dropdown" href="#">Hillary
+          <a class="dropdown-toggle name" data-toggle="dropdown" href="#">
+            Hillary
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">

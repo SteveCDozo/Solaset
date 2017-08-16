@@ -97,8 +97,8 @@ $account_menu = array(
 $notifications = array(
   'admin' => array(
     array(
-      'text' => 'New website changes are awaiting your review.',
-      'link' => '/index.php'
+      'text' => 'New website changes',
+      'link' => '/'
     ),
     array(
       'text' => 'Bruno Mars released a new song!',
@@ -115,7 +115,7 @@ $notifications = array(
       'link' => '/investproject.php'
     ),
     array(
-      'text' => "There's a new document waiting for you.",
+      'text' => "There's a new document waiting for you",
       'link' => '/documentcenter.php'
     )
   )

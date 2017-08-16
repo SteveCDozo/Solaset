@@ -79,9 +79,27 @@ nav .name:hover {
 nav .dropdown-menu {
   text-transform: capitalize;
 }
+.navbar-default .navbar-nav > .open > a {
+  background-color: white;
+}
 .navbar-default .navbar-nav > .open > a:focus {
+  background-color: white;
+}
+#notifs_dropdown {
+  background-color: #fafafa;
+  padding: 0 8px;
+  text-transform: none;
+}
+#notifs_dropdown li {
+  margin: 10px 0;
+  background-color: white;
+}
+#notifs_dropdown li .notif_link {
+  padding: 10px 20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
   color: #555;
-  background-color: transparent;
+  background-color: red;
 }
 /* manage projects page */
 #manage-projects-page #filter > .row {
@@ -169,7 +187,6 @@ nav .dropdown-menu {
   text-align: center;
   padding: 0!important;
 }
-
 .modal:before {
   content: '';
   display: inline-block;
@@ -177,7 +194,6 @@ nav .dropdown-menu {
   vertical-align: middle;
   margin-right: -4px; /* Adjusts for spacing */
 }
-
 .modal-dialog {
   display: inline-block;
   vertical-align: middle;
