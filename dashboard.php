@@ -51,7 +51,7 @@ include_once("head.php");
             <span class="slider round"></span>
           </label>
           <span id="auto-invest-status" class="text-left" style="display:inline-block;width:35px;margin-right:10px;">ON</span>
-          <a href="#">Edit</a>
+          <a data-toggle="modal" href="#edit-modal" data-rel="popup">Edit</a>
         </div>
         <div class="col-md-4" style="border-right-style: solid;">
           <a href="#"><span class="glyphicon glyphicon-folder-open" style="padding-right:4px;"></span>  Portfolio</a>
@@ -61,10 +61,50 @@ include_once("head.php");
         </div>
       </div>
     </div>
+    <div id="edit-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="padding-bottom:20px;">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2>Auto-Invest</h2>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="form-group">
+                <label style="font-size:140%;">Maximum amount to invest per project</label>
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="input-group">
+                      <span class="input-group-addon">$</span>
+                      <input type="text" class="form-control" placeholder="ex. 2,500">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="text-muted" style="font-size:120%;">Enter an amount that is a multiple of $250</p>
+              <br>
+              <div class="form-group">
+                <label style="font-size:140%;">Target number of projects</label>
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="input-group">
+                      <span class="input-group-addon">$</span>
+                      <input type="text" class="form-control" placeholder="ex. 2,500">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="btn btn-primary">Save</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 <script>
 $(function() {
+  //$("#edit-modal").modal();
   $("#auto-invest").change(function() {
     if ($(this).is(":checked")) {
       $("#auto-invest-status").text("ON");
