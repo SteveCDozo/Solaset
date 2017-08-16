@@ -94,4 +94,31 @@ $account_menu = array(
   )
 );
 
+$notifications = array(
+  'admin' => array(
+    array(
+      'text' => 'New website changes are awaiting your review.',
+      'link' => '/index.php'
+    ),
+    array(
+      'text' => 'Bruno Mars released a new song!',
+      'link' => 'https://www.youtube.com/watch?v=-FyjEnoIgTM'
+    ),
+    array(
+      'text' => "Get your Dunkin' Iced Coffee Now!",
+      'link' => 'https://www.dunkindonuts.com'
+    )
+  ),
+  'investor' => array(
+    array(
+      'text' => 'Your project has been funded!',
+      'link' => '/investproject.php'
+    ),
+    array(
+      'text' => "There's a new document waiting for you.",
+      'link' => '/documentcenter.php'
+    )
+  )
+);
+
 ?>

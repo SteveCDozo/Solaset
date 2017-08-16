@@ -19,7 +19,7 @@
     <div style="width:400px; margin: 0 auto;">
     <div class="row" style="margin-top:100px;">
       <div class="col-md-12">
-        <img alt="Solaset" src="/img/solaset.png" width="200" style="display:block;margin: 0 auto;">
+        <a href="/"><img alt="Solaset" src="/img/solaset.png" width="200" style="display:block;margin: 0 auto;"></a>
         <section class="content" style="margin-top:45px;">
           <h5 style="font-size:130%;padding-top:2px;" class="text-center"><b>Welcome back!</b></h5>
           <form action="/dashboard.php" style="margin-top:32px;">
