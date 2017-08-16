@@ -39,18 +39,6 @@
             ?>
           </ul>
         </li>
-        <li class="dropdown" style="margin-top:13px;">
-          <button class="dropdown-toggle name" data-toggle="dropdown" style="background-color:transparent;border-style:none;">Hillary
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu">
-            <?php
-              foreach ($account_menu[$portal] as $menu_item) {
-                echo "<li><a href={$menu_item['link']}>{$menu_item['text']}</a></li>";
-              }
-            ?>
-          </ul>
-        </li>
       </ul>
     </div>
   </div>
