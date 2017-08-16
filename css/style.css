@@ -79,6 +79,10 @@ nav .name:hover {
 nav .dropdown-menu {
   text-transform: capitalize;
 }
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: transparent;
+}
 /* manage projects page */
 #manage-projects-page #filter > .row {
   padding: 30px 0 30px 0;
