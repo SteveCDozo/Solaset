@@ -19,12 +19,12 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">
             <i class="fa fa-envelope-o"></i>
           </a>
-          <ul id="notifs_dropdown" class="dropdown-menu" style="">
+          <ul id="notifs_dropdown" class="dropdown-menu">
             <?php
               foreach ($notifications[$portal] as $notif_item) {
-                echo "<li><a class='notif_link' href={$notif_item['link']}";
+                echo "<li><div class='row' style='display:flex;'><div class='col-xs-10'><a class='notif_link' href={$notif_item['link']}";
                 echo ($notif_item['link'][0]=="/") ? "" : " target='_blank'";
-                echo ">{$notif_item['text']}</a></li>";
+                echo ">{$notif_item['text']}</a></div><div class='col-xs-2'><button type='button' class='close'>&times;</button></div></div></li>";
               }
             ?>
           </ul>

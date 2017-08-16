@@ -86,16 +86,43 @@ nav .dropdown-menu {
   background-color: white;
 }
 #notifs_dropdown {
+  width:400px;
   background-color: #fafafa;
-  padding: 0 8px;
+  padding: 0 20px;
   text-transform: none;
 }
 #notifs_dropdown li {
-  margin: 10px 0;
+  margin: 20px 0;
   background-color: white;
 }
-#notifs_dropdown li .notif_link {
-  padding: 10px 20px;
+#notifs_dropdown li:hover {
+  background-color: #f5f5f5;
+}
+.notif_link {
+  display: block;
+  padding: 20px 20px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+.dropdown-menu > li .notif_link:hover,
+.dropdown-menu > li .notif_link:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+.dropdown-menu .active .notif_link,
+.dropdown-menu .active .notif_link:hover,
+.dropdown-menu .active .notif_link:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #337ab7;
+  outline: 0;
+}
+#notifs_dropdown li button {
+  margin: 20px 0px;
+  float:none;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
   color: #555;
