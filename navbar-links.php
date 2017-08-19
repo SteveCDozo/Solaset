@@ -80,6 +80,10 @@ $account_menu = array(
   ),
   'investor' => array(
     array(
+      'text' => 'Portfolio',
+      'link' => '/portfolio.php'
+    ),
+    array(
       'text' => 'Account History',
       'link' => '#'
     ),

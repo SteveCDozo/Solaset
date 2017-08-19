@@ -34,7 +34,7 @@
         </li>
         <li class="dropdown">
           <a class="dropdown-toggle name" data-toggle="dropdown" href="#">
-            Hillary
+            <?php echo $portal; ?>
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
