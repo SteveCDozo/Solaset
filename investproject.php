@@ -105,7 +105,7 @@ include_once("head.php");
             <object data="/data/REIT_Subscription_Agreement.pdf" type="application/pdf" width="800" height="400">
               alt : <a href="/data/REIT_Subscription_Agreement.pdf">test.pdf</a>
             </object>
-            <form action="#">
+            <form action="#" autocomplete="off">
               <div class="form-group" style="margin-top:10px;">
                 <span><input type="checkbox" style=""></span><label style="margin-left:3px;font-weight:normal;font-size:110%;">I agree to the terms and conditions.</label>
               </div>
