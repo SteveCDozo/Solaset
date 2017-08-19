@@ -4,7 +4,6 @@ $portal = "admin";
 $action = "Edit";
 include_once("head.php");
 ?>
-<section id="manage-projects-page">
 <div class="container-fluid">
   <!-- filter/sort section -->
   <section id="filter">
@@ -77,7 +76,6 @@ include_once("head.php");
     </div>
   </div>
 </div>
-</section>
 <script>
 $(function() {
   $("#projects-table article").hover(

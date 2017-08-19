@@ -1,7 +1,6 @@
 <?php
-$page_title = "Funded Projects";
-$portal = "admin";
-$action = "View";
+$page_title = "Portfolio";
+$portal = "investor";
 include_once("head.php");
 ?>
 <div class="container-fluid">
