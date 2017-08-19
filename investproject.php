@@ -93,6 +93,38 @@ include_once("head.php");
         </div>
       </div>
     </div>
+    <div id="sign-modal" class="modal fade">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content text-center" style="padding-bottom:20px;">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3>Promissory Note/Subscription Agreement Sign</h3>
+          </div>
+          <div class="modal-body">
+            <h4>Please review the agreement and sign below</h4>
+            <object data="/data/REIT_Subscription_Agreement.pdf" type="application/pdf" width="800" height="400">
+              alt : <a href="/data/REIT_Subscription_Agreement.pdf">test.pdf</a>
+            </object>
+            <form action="#">
+              <div class="form-group" style="margin-top:10px;">
+                <span><input type="checkbox" style=""></span><label style="margin-left:3px;font-weight:normal;font-size:110%;">I agree to the terms and conditions.</label>
+              </div>
+              <div class="form-group">
+                <div class="row" style="display:flex;">
+                  <div class="col-xs-3 col-xs-offset-2 text-right">
+                    <label for="signature" style="margin-top:5px;">Electronic Signature: </label>
+                  </div>
+                  <div class="col-xs-5">
+                    <input id="signature" type="text" class="form-control" placeholder="ex. John Doe">
+                  </div>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row" style="display:flex;margin-top:30px;">
         <div class="col-xs-6 text-center">
           <div class="content" style="height:100%;">
@@ -127,4 +159,13 @@ include_once("head.php");
     </div>
   </div>
 </div>
+<script>
+    $(function () {
+        $('#invest-modal button').click(function() {
+            $('#invest-modal').one('hidden.bs.modal', function() {
+                $('#sign-modal').modal('show');
+            }).modal('hide');
+        });
+    });
+</script>
 <?php include_once("end.php"); ?>
