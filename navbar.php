@@ -20,11 +20,14 @@
             <i class="fa fa-envelope-o"></i>
           </a>
           <ul id="notifs_dropdown" class="dropdown-menu">
+            <i id="no-notifs" style="display:none;text-align:center;">No new notifications</i>
             <?php
-              foreach ($notifications[$portal] as $notif_item) {
-                echo "<li><div class='row' style='display:flex;'><div class='col-xs-10'><a class='notif_link' href={$notif_item['link']}";
-                echo ($notif_item['link'][0]=="/") ? "" : " target='_blank'";
-                echo ">{$notif_item['text']}</a></div><div class='col-xs-2'><button type='button' class='close'>&times;</button></div></div></li>";
+              foreach ($notifications as $notif_item) {
+                if ($notif_item['owner'] == $portal && $notif_item['status'] == 'active') {
+                  echo "<li><div class='row' style='display:flex;'><div class='col-xs-10'><a class='notif_link' href='{$notif_item['link']}'";
+                  echo ($notif_item['link'][0]=="/") ? "" : " target='_blank'";
+                  echo ">{$notif_item['text']}</a></div><div class='col-xs-2'><button type='button' class='close' value='{$notif_item['id']}'>&times;</button></div></div></li>";
+                }
               }
             ?>
           </ul>
@@ -46,3 +49,21 @@
     </div>
   </div>
 </nav>
+<script>
+$(function() {
+  // stop the dropdown menu from closing/disappearing when user clicks inside it
+  $('#notifs_dropdown').click(function(e) {
+    e.stopPropagation();
+  });
+  $("#notifs_dropdown .close").click(function() {
+    $(this).closest("li").remove();
+    //$.get("hide-notification.php", { id : $(this).val() });
+    if ($("#notifs_dropdown").children("li").length == 0) {
+      $("#no-notifs").css({"display":"block", "margin": "20px 0"});
+    }
+  });
+  if ($("#notifs_dropdown").children("li").length == 0) {
+    $("#no-notifs").css({"display":"block", "margin": "20px 0"});
+  }
+});
+</script>

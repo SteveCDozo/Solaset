@@ -95,29 +95,40 @@ $account_menu = array(
 );
 
 $notifications = array(
-  'admin' => array(
-    array(
-      'text' => 'New website changes',
-      'link' => '/'
-    ),
-    array(
-      'text' => 'Bruno Mars released a new song!',
-      'link' => 'https://www.youtube.com/watch?v=-FyjEnoIgTM'
-    ),
-    array(
-      'text' => "Get your Dunkin' Iced Coffee Now!",
-      'link' => 'https://www.dunkindonuts.com'
-    )
+  array(
+    'id' => '0',
+    'owner' => 'admin',
+    'text' => 'New website changes',
+    'link' => '/',
+    'status' => 'active'
   ),
-  'investor' => array(
-    array(
-      'text' => 'Your project has been funded!',
-      'link' => '/investproject.php'
-    ),
-    array(
-      'text' => "There's a new document waiting for you",
-      'link' => '/documentcenter.php'
-    )
+  array(
+    'id' => '1',
+    'owner' => 'admin',
+    'text' => 'Bruno Mars released a new song!',
+    'link' => 'https://www.youtube.com/watch?v=-FyjEnoIgTM',
+    'status' => 'active'
+  ),
+  array(
+    'id' => '2',
+    'owner' => 'admin',
+    'text' => "Get your Dunkin' Iced Coffee Now!",
+    'link' => 'https://www.dunkindonuts.com',
+    'status' => 'active'
+  ),
+  array(
+    'id' => '3',
+    'owner' => 'investor',
+    'text' => 'Your project has been funded!',
+    'link' => '/investproject.php',
+    'status' => 'active'
+  ),
+  array(
+    'id' => '4',
+    'owner' => 'investor',
+    'text' => "There's a new document waiting for you",
+    'link' => '/documentcenter.php',
+    'status' => 'active'
   )
 );
 
