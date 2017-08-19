@@ -51,6 +51,10 @@
 </nav>
 <script>
 $(function() {
+  // get current URL path and assign 'active' class
+	var pathname = window.location.pathname;
+  // show line under current page
+	$('.nav > li > a[href="'+pathname+'"]').parent().addClass('active');
   // stop the dropdown menu from closing/disappearing when user clicks inside it
   $('#notifs_dropdown').click(function(e) {
     e.stopPropagation();
