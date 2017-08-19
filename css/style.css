@@ -1,15 +1,15 @@
 /* fonts */
 @font-face {
   font-family: markpro;
-  src: url(/fonts/markpro.otf);
+  src: url(/fonts/MarkPro.otf);
 }
 @font-face {
   font-family: markprobook;
-  src: url(/fonts/markpro-book.otf);
+  src: url(/fonts/MarkPro-Book.otf);
 }
 @font-face {
   font-family: markprobold;
-  src: url(/fonts/markpro-bold.otf);
+  src: url(/fonts/MarkPro-Bold.otf);
 }
 /* sitewide css */
 body {
