@@ -17,7 +17,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-            <i class="fa fa-envelope-o"></i>
+            <i class="fa fa-envelope-o"></i><span class="badge" style="">8</span>
           </a>
           <ul id="notifs_dropdown" class="dropdown-menu">
             <i id="no-notifs" style="display:none;text-align:center;">No new notifications</i>
