@@ -5,7 +5,7 @@ include_once("head.php");
 ?>
 <div class="container-fluid">
   <div style="width: 1000px; margin: 0 auto;">
-    <section class="content">
+    <div class="content">
       <div class="row">
         <div class="col-xs-12">
           <h2 class="text-center" style="margin-top:10px;margin-bottom:40px;font-weight:600;">Ofosu Family House, 10KW system</h2>
@@ -47,7 +47,7 @@ include_once("head.php");
           <div class="row">
             <div class="col-xs-12">
               <form action="#">
-                <button type="submit" class="btn btn-primary" style="font-size:120%;padding: 5px 20px;">Invest</button>
+                <button data-toggle="modal" data-target="#invest-modal" type="button" class="btn btn-primary" style="font-size:120%;padding: 5px 20px;">Invest</button>
               </form>
             </div>
           </div>
@@ -64,19 +64,47 @@ include_once("head.php");
           </p>
         </div>
       </div>
-    </section>
+    </div>
+    <div id="invest-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="padding-bottom:20px;">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2>Invest</h2>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="form-group">
+                <label style="font-size:140%;margin-bottom:20px;">Amount to Invest</label>
+                <div class="row">
+                  <div class="col-xs-6 col-xs-offset-3">
+                    <div class="input-group">
+                      <span class="input-group-addon">$</span>
+                      <input type="text" class="form-control" placeholder="ex. 2,500">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="text-muted" style="font-size:120%;">Enter an amount that is a multiple of $250</p>
+              <br>
+              <button type="button" class="btn btn-primary">Review and Sign</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row" style="display:flex;margin-top:30px;">
         <div class="col-xs-6 text-center">
-          <section class="content" style="height:100%;">
+          <div class="content" style="height:100%;">
             <h3 style="margin-bottom: 20px;font-weight:600;">Country Profile</h3>
             <img class="img" style="margin-top:10px;" height="180" width="200" src="/img/prof.jpg">
             <h2>Population: 56 million</h2>
             <h2>Access to electricity: 78%</h2>
             <p style="font-size:120%;">Short sentence about electricity issues in the country lorem psum dolor sit amet, conseectuer adjipeicing elit, sed do ejusmod tempor indicucent ut labore set dolore manga alizqua.</p>
-          </section>
+          </div>
         </div>
         <div class="col-xs-6">
-          <section class="content">
+          <div class="content">
             <h3 style="margin-bottom: 20px;font-weight:600;">Solar Partner: Solarlight</h3>
             <h4 style="font-size:140%;"><b>Why we work with Solarlight</b></h4>
             <p style="font-size:120%;">Short paragraph about why we work with the company lorem psum dolor sit amet, conseectuer adjipeicing elit, sed do ejusmod tempor indicucent ut labore set dolore manga alizqua.</p>
@@ -94,7 +122,7 @@ include_once("head.php");
               <li><i class="fa fa-reddit-square"></i></li>
               <li><i class="fa fa-share-alt"></i></li>
             </ul>
-          </section>
+          </div>
         </div>
     </div>
   </div>

@@ -61,7 +61,7 @@ include_once("head.php");
         </div>
       </div>
     </div>
-    <div id="edit-modal" class="modal fade" style="">
+    <div id="edit-modal" class="modal fade">
       <div class="modal-dialog">
         <div class="modal-content text-center" style="padding-bottom:20px;">
           <div class="modal-header">
