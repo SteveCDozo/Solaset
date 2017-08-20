@@ -287,6 +287,18 @@ input:checked + .slider:before {
 #dashboard {
   background-color: white;
 }
+/* faq page */
+.nav-tabs > li {
+  float:none;
+  display:inline-block;
+}
+.tab-content > .tab-pane > a {
+  font-family: markprobold;
+  display: block;
+  font-size: 140%;
+  margin: 40px 0px;
+  text-decoration: none;
+}
 /* footer */
 .footer {
   margin-top: 70px;

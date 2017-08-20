@@ -51,7 +51,7 @@ include_once("head.php");
             <span class="slider round"></span>
           </label>
           <span id="auto-invest-status" class="text-left" style="display:inline-block;width:35px;margin-right:10px;">ON</span>
-          <a data-toggle="modal" href="#edit-modal" data-rel="popup">Edit</a>
+          <a data-toggle="modal" href="#edit-modal">Edit</a>
         </div>
         <div class="col-xs-4" style="border-right-style: solid;">
           <a href="#"><span class="glyphicon glyphicon-folder-open" style="padding-right:4px;"></span>  Portfolio</a>
