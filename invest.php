@@ -4,7 +4,6 @@ $portal = "investor";
 $action = "Learn More";
 include_once("head.php");
 ?>
-<section id="manage-projects-page">
 <div class="container-fluid">
   <!-- filter/sort section -->
   <section id="filter">
@@ -50,6 +49,9 @@ include_once("head.php");
       <div class="well" style="border-radius: 0; padding:8px 0px 8px 12px;color:white;background-color: #4e90cd;font-size: 120%;font-weight:bold;">6 Projects</div>
       <div class="row">
         <?php
+        $progress_percent = '70';
+        $progress_type = 'primary';
+        $progress_label = '$7,500 left';
         $house_img="1.jpg";
         $house_name="University of Ghana";
         include("ghanaprojectexample.php");
@@ -77,7 +79,6 @@ include_once("head.php");
     </div>
   </div>
 </div>
-</section>
 <script>
 $(function() {
   $("#projects-table article").hover(

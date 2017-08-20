@@ -10,7 +10,7 @@
       <li><span class="glyphicon glyphicon-map-marker"></span> Ghana</li>
     </ul>
     <div class="progress" style="margin-bottom:0;">
-      <div class="progress-bar" role="progressbar" style="width:70%;">$7,500 left</div>
+      <div class="progress-bar progress-bar-<?php echo $progress_type; ?>" role="progressbar" style="width:<?php echo $progress_percent; ?>%;"><?php echo $progress_label; ?></div>
     </div>
     <div class="overlay">
       <form action="<?php echo ($action=="Learn More") ? "investproject" : "{$action}project"; ?>.php">
