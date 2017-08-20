@@ -75,7 +75,7 @@ include_once("head.php");
         $house_img="5.jpg";
         $house_name="Ofosu Family House";
         include("ghanaprojectexample.php");
-        $progress_type = 'warning';
+        $progress_type = 'danger';
         $progress_label = 'Delinquent';
         $house_img="6.jpg";
         $house_name="SNITT Flats";
